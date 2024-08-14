@@ -13,8 +13,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 public class apiTest {
     @Test
     public void getWeatherInfo() {
-        final String accessKey = "40c8d51743754b66bd3310b02b09543a";
-        final String secretKey = "4d5baea0d8624fef882b5bfd05f5be70";
+        final String accessKey = "";
+        final String secretKey = "";
 
         String path = "http://getweather.api.bdymkt.com/lundear/weather1d";
         ApiExplorerRequest request = new ApiExplorerRequest(HttpMethodName.GET, path);
